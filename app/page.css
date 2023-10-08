@@ -1,0 +1,16 @@
+.layout{
+    height: 100vh;
+}
+.std-table{
+    height: 90vh;
+}
+td.ant-table-cell{
+    padding: 10px!important;
+}
+
+td.ant-table-cell a{
+    background: red;
+    color: #fff!important;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
