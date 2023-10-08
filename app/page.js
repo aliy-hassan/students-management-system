@@ -198,10 +198,9 @@ export default function Home() {
     // console.log(students)
   }
 
-  const dependency = fetchStudents();
   useEffect(()=> {
     fetchStudents()
-  }, [dependency])
+  }, [fetchStudents()])
 
   const columns = [
     {
